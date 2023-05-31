@@ -25,7 +25,7 @@ const InfoScreen = () => {
           ...stylesHome.textStyle,
         }}
         onPress={() =>
-          Linking.openURL("https://www.gnu.org/licenses/gpl-3.0.en.html")
+          Linking.openURL("https://github.com/danistrigaro/EEGglossary.git")
         }
       >
         GitHub
