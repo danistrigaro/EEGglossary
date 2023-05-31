@@ -1,0 +1,184 @@
+[
+  {
+    "id": 0,
+    "name_eng": "Absence",
+    "desc_eng": "A generalized seizure type. Use of term discouraged when describing EEG patterns. Terms suggested, whenever appropriate: spike-and-slow-wave complex, 3 c/s spike-and-slow-wave complex, sharp-and-slow wave complex.",
+    "name_ita": "Assenza",
+    "desc_ita": "un tipo di crisi generalizzata. L'uso di questo termine è sconsigliato per descrivere i pattern EEG per i quali è preferibile utilizzare, se appropriata, una delle seguenti (diciture): complesso di punta-onda-lenta, complesso punta-onda-lenta a 3 Hz, complesso onda puntuta-onda lenta."
+  },
+  {
+    "id": 1,
+    "name_eng": "Activation procedure",
+    "desc_eng": "Any procedure designed to modulate EEG activity, for instance to enhance physiological waveforms or elicit abnormal paroxysmal activity. Examples include: eye closing, hyperventilation, photic stimulation, natural or drug-induced sleep, sensory stimulation (acoustic, somatosensory or pain).",
+    "name_ita": "Prova di attivazione",
+    "desc_ita": "qualsiasi procedura finalizzata a modulare l'attività EEG, potenziando per esempio l'attività fisiologica o favorendo la comparsa di un'attività parossistica anormale. Esempi: chiusura degli occhi, iperventilazione, stimolazione luminosa, sonno naturale o farmaco-indotto, stimolazione sensoriale (acustica, tattile o dolorosa)."
+  },
+  {
+    "id": 2,
+    "name_eng": "Active sleep:",
+    "desc_eng": "Normal sleep stage in neonates characterized by eye closure, intermittent periods of rapid eye movements, irregular respirations and scant body movements. The EEG shows activité moyenne in term and near term infants, and tracé discontinue (discontinuous pattern) in preterm infants <34 weeks of post menstrual age (PMA); the inter-burst interval depends on the PMA. (See quiet sleep, activité moyenne, tracé discontinue, REM sleep).",
+    "name_ita": "Sonno attivo",
+    "desc_ita": "fase fisiologica del sonno nel neonato caratterizzata dalla chiusura degli occhi, periodi intermittenti di movimenti oculari rapidi, respiro irregolare e movimenti del corpo. L'EEG mostra \"activité moyenne\" (lett. attività intermedia; sin. attività a frequenze miste) nei neonati a termine e quasi a termine, e tracciato discontinuo (\"tracé discontinu\") nei neonati pretermine con <34 settimane di età gestazionale (EG); l'intervallo inter-burst varia in base alla EG. (Vedi sonno quieto, activité moyenne, tracé discontinu, sonno REM)."
+  },
+  {
+    "id": 3,
+    "name_eng": "Activity, EEG",
+    "desc_eng": "An EEG wave or sequence of waves of cerebral origin.",
+    "name_ita": "Attività, EEG",
+    "desc_ita": "un'onda o una sequenza di onde EEG di origine cerebrale."
+  },
+  {
+    "id": 4,
+    "name_eng": "Activité moyenne",
+    "desc_eng": "Neonatal EEG pattern of wakefulness and active sleep in term and near term infants characterized by continuous, low to medium amplitude mixed frequency activity (25–50 µV) with a predominance of theta and delta and overriding beta activity. Synonym: mixed frequency activity. (See active sleep).",
+    "name_ita": "Activité moyenne",
+    "desc_ita": "pattern EEG neonatale di veglia e di sonno attivo nei neonati a termine e quasi a termine, caratterizzato da un'attività continua con frequenze miste, di ampiezza da bassa a media (25-50 µV) con una predominanza dell'attività theta e delta e un'attività beta sovraimposta. Sinonimo: attività a frequenze miste o attività intermedia. (Vedi sonno attivo)."
+  },
+  {
+    "id": 5,
+    "name_eng": "After-discharge",
+    "desc_eng": "(1) EEG seizure pattern following single or repetitive electrical stimulation of a discrete area of the brain via cortical or intracerebral electrodes. (2) Burst of rhythmic activity following a transient such as an evoked potential or a spike.",
+    "name_ita": "After-discharge",
+    "desc_ita": "(1) pattern EEG che compare in seguito a stimolazione elettrica, singola o ripetitiva, con elettrodi di superficie o intracerebrali, di un'area circoscritta del cervello; (2) burst di attività ritmica che compare dopo un transiente come un potenziale evocato o una punta."
+  },
+  {
+    "id": 6,
+    "name_eng": "Aliasing",
+    "desc_eng": "Distortion of the EEG signal leading to misidentification of frequency, which occurs when the signal is sampled at less than twice the highest frequency present. The Nyquist theorem states that sampling rates should be at least twice the highest frequency, but accurate digitization of EEG signals requires even higher sampling rates. Comment: Distortion and aliasing can occur at the Nyquist theorem frequency (see Nyquist theorem, sampling rate).",
+    "name_ita": "Aliasing",
+    "desc_ita": "distorsione del segnale EEG che comporta un'errata valutazione della frequenza. Si verifica quando il segnale viene campionato a meno del doppio della frequenza più alta presente nel EEG. Il teorema di Nyquist afferma che i tassi di campionamento dovrebbero essere almeno il doppio della frequenza più alta. In realtà la digitalizzazione accurata dei segnali EEG richiede tassi di campionamento ancora più elevati. Commento: distorsione e aliasing possono verificarsi alla frequenza del teorema di Nyquist (vedi teorema di Nyquist, frequenza di campionamento)."
+  },
+  {
+    "id": 7,
+    "name_eng": "Alpha band",
+    "desc_eng": "Frequency band of 8–13 Hz inclusive. Greek letter: α.",
+    "name_ita": "Banda alfa",
+    "desc_ita": "frequenza compresa nella banda 8-13 Hz. Lettera greca: α."
+  },
+  {
+    "id": 8,
+    "name_eng": "Alpha rhythm",
+    "desc_eng": "Rhythm at 8–13 Hz inclusive occurring during wakefulness over the posterior regions of the head, generally with maximum amplitudes over the occipital areas. Amplitude varies but is mostly below 50 µV in the adult, but often much higher in children. Best seen with the eyes closed, during physical relaxation and relative mental inactivity. Blocked or attenuated by attention, especially visual, and mental effort. Comment: use of term rhythm must be restricted to those rhythms that fulfill these criteria. Activities in the alpha band which differ from the alpha rhythm as regards their topography and/or reactivity, should either have specific appellations (for instance: the mu rhythm and alpha coma) or should be referred to as rhythms of alpha frequency or alpha activity. (See blocking, attenuation). Synonym: posterior dominant rhythm.",
+    "name_ita": "Ritmo alfa",
+    "desc_ita": "ritmo compreso tra 8-13 Hz che si presenta durante la veglia sulle regioni posteriori dello scalpo, generalmente con massima ampiezza sulle aree occipitali. L'ampiezza è variabile ma solitamente inferiore a 50 µV nell'adulto, mentre è spesso molto più alta nei bambini. Si osserva meglio ad occhi chiusi, nelle fasi di rilassamento fisico e durante la relativa inattività mentale. Bloccato o attenuato dall'attenzione, soprattutto visiva, e dallo sforzo mentale. Commento: l'uso del termine ritmo deve limitarsi a quei ritmi che soddisfano i criteri sovraenunciati. Le attività con frequenza compresa nella banda alfa che differiscono dal ritmo alfa per topografia e/o tipo di reattività, devono essere indicate con denominazioni specifiche (esempi: ritmo mu e l'alfa coma) o essere chiamate ritmi di frequenza alfa o attività alfa. (Vedi blocco, attenuazione). Sinonimo: ritmo dominante posteriore."
+  },
+  {
+    "id": 9,
+    "name_eng": "Alpha variant rhythms",
+    "desc_eng": "An EEG rhythm recorded most prominently over the posterior regions of the head that differs in frequency, but resembles in reactivity, the alpha rhythm. Comments: (1) often at a supra- or sub-harmonic of alpha frequency and may occur when no alpha rhythm is visible. (2) Not to be confused with posterior slow waves of youth. (See fast alpha variant rhythm, slow alpha variant rhythm, and posterior slow waves of youth).",
+    "name_ita": "Alfa variante",
+    "desc_ita": "un ritmo EEG più evidente sulle regioni posteriori dello scalpo che differisce in frequenza rispetto al ritmo alfa, ma presenta lo stesso tipo di reattività. Commenti: (1) spesso costituito da una sovra- o sub-armonica della frequenza alfa. Può presentarsi quando il ritmo alfa non è visibile. (2) da non confondere con le onde lente posteriori della adolescenza. (Vedi variante alfa rapida, variante alfa lenta e onde lente posteriori della adolescenza)."
+  },
+  {
+    "id": 10,
+    "name_eng": "Alpha wave",
+    "desc_eng": "Wave with duration of 1/8–1/13 s (77–125 ms).",
+    "name_ita": "Onda alfa",
+    "desc_ita": "onda con durata di 1/8-1/13 s (77-125 ms)."
+  },
+  {
+    "id": 11,
+    "name_eng": "Amplitude, EEG",
+    "desc_eng": "Is a measure of the change of EEG signals with respect to the mean value, usually measured in microvolts (µV), and often expressed as the difference between the maximum and minimum deviation (i.e. peak-to-peak), or in rectified EEG from baseline-to-peak. For a variable EEG activity or modulating sinusoidal rhythm a range can be provided. Comment: EEG amplitude depicts the difference in electrical potential between electrode pairs. Size of the output deflections are dependent upon the method of derivation (i.e. montage), inter-electrode distance, and may be distorted by intervening structures, particularly the skull. Synonym: in practice voltage is synonymous with EEG amplitude, and the visual size of waveforms can be manipulated by the display gain (see voltage and display gain).",
+    "name_ita": "Ampiezza, EEG",
+    "desc_ita": "è una misura della variazione dei segnali EEG rispetto al valore medio, di solito misurata in microvolt (µV), e spesso espressa come la differenza tra la deviazione massima e minima (cioè picco-picco), o nel EEG rettificato dalla linea di base al picco. Quando l'attività EEG o un ritmo sinusoidale sono variabili, si può far riferimento a un intervallo di valori. Commento: l'ampiezza EEG descrive la differenza di potenziale elettrico tra una coppia di elettrodi. Le dimensioni delle deflessioni in uscita dipendono dal metodo di derivazione (cioè dal montaggio), dalla distanza tra gli elettrodi e possono essere distorte dalle strutture frapposte tra la corteccia e l'elettrodo esplorante, soprattutto dalle ossa del cranio. Sinonimo: in pratica il voltaggio è sinonimo di ampiezza, e la dimensione con cui vediamo i grafoelementi può essere manipolata modificando il guadagno di visualizzazione (vedi tensione e guadagno di visualizzazione)."
+  },
+  {
+    "id": 12,
+    "name_eng": "Amplitude-integrated EEG (aEEG)",
+    "desc_eng": "Involves customized display of EEG activity following signal processing which includes an asymmetric band-pass filter (2–15 Hz), logarithmic amplitude display, rectification, smoothing and time compression (such that several hours can be viewed on a screen). Widely used in neonatal intensive care unit monitoring, for example of infants suffering an hypoxic ischemic encephalopathy. Comment: concurrent review of conventional raw EEG traces is recommended. Synonym: cerebral function monitor (CFM).",
+    "name_ita": "EEG integrato in ampiezza (aEEG)",
+    "desc_ita": "permette di modificare la visualizzazione dell'attività EEG, dopo l'iniziale elaborazione del segnale, che include: un filtro passa-banda asimmetrico (2-15 Hz), la visualizzazione logaritmica dell'ampiezza, la rettifica, lo smussamento, e la compressione temporale (per permettere, per esempio, la visualizzazione di diverse ore di registrazione sulla stessa pagina dello schermo). Ampiamente utilizzato nel monitoraggio in terapia intensiva neonatale, per esempio dei neonati con encefalopatia ipossico-ischemica. Commento: si raccomanda l’analisi concomitante delle tracce EEG convenzionali. Sinonimo: monitoraggio della funzione cerebrale (CFM, cerebral function monitoring)."
+  },
+  {
+    "id": 13,
+    "name_eng": "Analog-to-digital conversion (AD conversion)",
+    "desc_eng": "Transformation of a continuous, analog signal EEG into its digital representation (a discontinuous series of discrete amplitudes). AD conversion is characterized by the sampling rate, which is the number of times per second at which the signal is transformed into digits, and the amplitude resolution, the number of numerical values which can be distinguished within the dynamic range of the system (usually expressed as the number of binary digits). (See sampling rate).",
+    "name_ita": "Conversione analogico-digitale (conversione AD)",
+    "desc_ita": "trasformazione di un segnale analogico continuo EEG nella sua rappresentazione digitale (una serie discontinua di ampiezze discrete). La conversione AD è caratterizzata da una frequenza di campionamento, che corrisponde al numero di volte al secondo in cui il segnale elettrico in ingresso viene tradotto in sequenza numerica; la risoluzione di ampiezza, ossia il numero di valori numerici che possono essere distinti all'interno della gamma dinamica del sistema (è solitamente espresso in cifre binarie). (Vedi frequenza di campionamento)."
+  },
+  {
+    "id": 14,
+    "name_eng": "Anterior (slow) dysrhythmia",
+    "desc_eng": "A normal EEG activity seen in term and near term infants at 32–44 weeks of post menstrual age; characterized by bilateral frontal delta waves (50–100 µV), seen in isolation or brief runs, typically synchronously and symmetrically.",
+    "name_ita": "Disritmia lenta anteriore (lenta)",
+    "desc_ita": "un'attività EEG normale osservata nei neonati a termine e quasi a termine, a 32-44 settimane di età gestazionale; caratterizzata da onde delta sulle derivazioni frontali, bilaterali (ampiezza 50-100 µV), isolate o raggruppate in brevi sequenze, tipicamente sincrone e simmetriche."
+  },
+  {
+    "id": 15,
+    "name_eng": "Application, electrode",
+    "desc_eng": "The process of establishing fixation and electrical connection between an electrode and the subject’s scalp or brain.",
+    "name_ita": "Applicazione, elettrodo",
+    "desc_ita": "il processo con cui si fissa un elettrodo stabilendo un contatto con lo scalpo o il tessuto cerebrale del soggetto."
+  },
+  {
+    "id": 16,
+    "name_eng": "Arrhythmic activity",
+    "desc_eng": "A sequence of EEG waves with an inconstant periodicity. (See rhythmic).",
+    "name_ita": "Attività aritmica",
+    "desc_ita": "una sequenza di onde EEG con una periodicità incostante. (Vedi ritmico)."
+  },
+  {
+    "id": 17,
+    "name_eng": "Arousal",
+    "desc_eng": "Change from a lower to a higher level of alertness as manifest in EEG activity.",
+    "name_ita": "Risveglio",
+    "desc_ita": "attività EEG che compare in relazione al passaggio da un livello di vigilanza inferiore ad uno più alto."
+  },
+  {
+    "id": 18,
+    "name_eng": "Array, electrode",
+    "desc_eng": "A regular arrangement of electrodes over the scalp or brain, or within the brain substance. Synonym: electrode montage.",
+    "name_ita": "Matrice, elettrodo",
+    "desc_ita": "concatenamento/disposizione regolare di elettrodi sullo scalpo, sulla superficie corticale, o all'interno del cervello. Sinonimo: montaggio degli elettrodi."
+  },
+  {
+    "id": 19,
+    "name_eng": "Artifact",
+    "desc_eng": "(1) A physiological potential difference due to an extracerebral source present in EEG recordings, such as eye blinks and movements, electrocardiogram (ECG) or muscle contractions (EMG). (2) A modification of the EEG caused by extracerebral factors, such as instrumental distortion or malfunction, movement of the patient, or ambient electrical noise.",
+    "name_ita": "Artefatto",
+    "desc_ita": "(1) una differenza di potenziale di origine biologica, presente nelle registrazioni EEG, dovuta a una fonte extracerebrale, come l'apertura/chiusura degli occhi od altri movimenti oculari, l'elettrocardiogramma (ECG) o le contrazioni muscolari (EMG); (2) una modificazione dell'EEG causata da fattori extracerebrali, come distorsione o malfunzionamento strumentale, movimento del paziente o interferenza elettrica ambientale."
+  },
+  {
+    "id": 20,
+    "name_eng": "Asymmetry",
+    "desc_eng": "Unequal amplitude, frequency or morphology of EEG activity in channels over homologous areas of the two hemispheres. To be considered abnormal in practice if the amplitude difference exceeds 50% or frequency difference is equal to or greater than 1 Hz in the posterior dominant rhythm, although it should be recognized that these are essentially arbitrary values. It can be quantified by quantitative EEG (qEEG) measures, such as the Brain Symmetry Index (BSI). (See quantitative EEG).",
+    "name_ita": "Asimmetria",
+    "desc_ita": "differente ampiezza, frequenza o morfologia dell'attività EEG sulle derivazioni corrispondenti ad aree omologhe dei due emisferi. Dal punto di vista pratico è da considerarsi anormale se la differenza di ampiezza supera il 50% o se la differenza di frequenza è uguale o superiore a 1 Hz nel ritmo dominante posteriore, sebbene si tratti di parametri arbitrari. Può essere calcolata attraverso sistemi di misurazioni EEG quantitativi (qEEG) come il Brain Symmetry Index (BSI). (Vedi EEG quantitativo)."
+  },
+  {
+    "id": 21,
+    "name_eng": "Asynchrony",
+    "desc_eng": "The non-coherent occurrence of EEG activities over regions on the same or opposite sides (hemispheres) of the head. For example, two similar waveforms occurring at separate electrodes or channels, but not simultaneously due to a time lag between the channels.",
+    "name_ita": "Asincronia",
+    "desc_ita": "la presenza di attività EEG, non temporalmente sincrone tra loro, su regioni dello stesso lato o sui due emisferi. Per esempio, due onde di morfologia simile, registrate su elettrodi o derivazioni separati, ma che non sono attribuibili al semplice ritardo di fase temporale tra canali contigui."
+  },
+  {
+    "id": 22,
+    "name_eng": "Attenuation",
+    "desc_eng": "Reduction in amplitude of EEG activity (for example, the alpha rhythm is usually attenuated or blocked on eye opening). May occur transiently in response to a physiological or other stimulus, such as electrical stimulation of the brain, or more permanently as a result of pathological conditions, such as cerebral atrophy or ischemia.",
+    "name_ita": "Attenuazione",
+    "desc_ita": "riduzione dell'ampiezza dell'attività EEG (per esempio, il ritmo alfa è solitamente attenuato o bloccato dall'apertura degli occhi). Può verificarsi solo transitoriamente in risposta a uno stimolo fisiologico o di altra natura, come la stimolazione elettrica del cervello, o permanentemente, come risultato di condizioni patologiche quali l'atrofia cerebrale o l'ischemia."
+  },
+  {
+    "id": 23,
+    "name_eng": "Auditory evoked potential (AEP)",
+    "desc_eng": "Evoked potential in response to auditory stimulus (see evoked potential, brainstem auditory evoked potential).",
+    "name_ita": "Potenziale evocato uditivo (AEP, auditory evoked potential)",
+    "desc_ita": "potenziale evocato in risposta ad uno stimolo uditivo (vedi potenziale evocato, potenziale evocato uditivo del tronco encefalico)."
+  },
+  {
+    "id": 24,
+    "name_eng": "Augmentation",
+    "desc_eng": "Increase in amplitude of EEG activity (for example the alpha rhythm is characteristically augmented upon closing the eyes).",
+    "name_ita": "Rinforzo",
+    "desc_ita": "aumento dell'ampiezza dell'attività EEG (per esempio l'ampiezza del ritmo alfa è caratteristicamente maggiore in coincidenza della chiusura degli occhi)."
+  },
+  {
+    "id": 25,
+    "name_eng": "Average (potential) reference electrode",
+    "desc_eng": "Use of term discouraged. Term suggested: common average reference. Synonym: Goldman-Offner reference (use of term also discouraged).",
+    "name_ita": "Elettrodo di referenza media (di potenziale)",
+    "desc_ita": "l'uso del termine è sconsigliato. Termine suggerito: referenza media comune. Sinonimo: referenza di Goldman-Offner (anche l'uso di questo termine è sconsigliato)."
+  }
+]

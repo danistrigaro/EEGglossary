@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128.14021mm"
+   height="37.056648mm"
+   viewBox="0 0 128.14021 37.056648"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="logo2.svg"
+   inkscape:export-filename="/home/daniele/Documents/2022/NEURO/EEGglossary/img/logo2.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="270.54467"
+     inkscape:cy="-184.29733"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.692032,-121.63915)">
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.94117647;fill-opacity:0.94117647;opacity:1"
+       d="m 48.693167,141.7349 3.892111,-0.0334 2.054635,-10.59056 2.405425,20.67998 3.775183,-20.57975 0.05011,-0.25057 0.100226,-0.26726 0.183748,-0.30068 2.037929,-2.77292 0.434314,-0.46772 0.300678,-0.26727 0.233862,-0.13364 0.384199,-0.16704 0.250566,-0.0501 h 0.467722 l 0.317381,0.0668 0.400905,0.11693 0.267269,0.16705 0.283974,0.25056 0.300678,0.35079 0.334087,0.40091 0.267269,0.31738 0.233862,0.26727 0.167042,0.25056 0.150339,0.30068 5.228461,16.62083 0.150338,0.43431 0.250566,0.46772 0.300678,0.45102 0.517834,0.58465 0.100227,0.0668 0.183748,0.0668 h 0.11693 0.217157 l 0.11693,-0.0501 0.183748,-0.0668 0.183747,-0.0835 0.167045,-0.11693 0.23386,-0.23386 0.183748,-0.26727 1.804069,-3.54132 98.906433,0.0334 v 0 0"
+       id="path839"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c00000;fill-opacity:0.94117647;stroke:#c00000;stroke-width:0.26458332;stroke-opacity:0.94117647"
+       x="121.51934"
+       y="158.39607"
+       id="text862"><tspan
+         sodipodi:role="line"
+         id="tspan860"
+         x="121.51934"
+         y="167.75984"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666794px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#c00000;fill-opacity:0.94117647;stroke:#c00000;stroke-width:0.26458332;stroke-opacity:0.94117647" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fffffe;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:0.94117647;opacity:1;"
+       x="102.58274"
+       y="138.36328"
+       id="text867"><tspan
+         sodipodi:role="line"
+         id="tspan865"
+         x="102.58274"
+         y="138.36328"
+         style="font-size:8.46666622px;fill:#fffffe;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:0.94117647;">GLOSSARIO <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#fffffe;fill-opacity:0.94117647;stroke:#ffffff;stroke-opacity:0.94117647;"
+   id="tspan936">EEG</tspan></tspan></text>
+  </g>
+</svg>
