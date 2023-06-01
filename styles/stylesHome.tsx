@@ -14,7 +14,7 @@ const stylesHome = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: "bold",
     fontStyle: "italic",
     color: "#0F4937",
@@ -63,7 +63,7 @@ const stylesHome = StyleSheet.create({
   },
   textStyle: {
     // color: "white",
-    fontSize: 15,
+    fontSize: 12,
     // fontWeight: "bold",
     textAlign: "center",
   },

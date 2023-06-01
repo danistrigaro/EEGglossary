@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const InfoScreen = () => {
   const { t, i18n } = useTranslation();
   return (
-    <ScrollView style={{ backgroundColor: "white" }}>
+    <ScrollView style={{ backgroundColor: "white", padding: 20 }}>
       <Text style={stylesHome.title}>{t("Scientific Committee")}</Text>
       <Text style={stylesHome.textStyle}>
         “Epilepsy and Neurophysiological Techniques” of the Italian League
@@ -48,14 +48,15 @@ const InfoScreen = () => {
         EEG (Revisione IFCN 2017). Clin Neurophysiol Pract. 2022 Nov
         8;7:325-365. doi: 10.1016/j.cnp.2022.09.006.
       </Text>
-      <Text style={stylesHome.textStyleItalic}>
-        <br />
+      <Text>&nbsp;</Text>
+      <Text
+        style={stylesHome.textStyleItalic}
+        onPress={() =>
+          Linking.openURL("https://creativecommons.org/licenses/by/4.0/")
+        }
+      >
         The mentioned scientific article is available under the terms of
-        the&nbsp;
-        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
-          Creative Commons Attribution License (CC BY)
-        </a>
-        .
+        the&nbsp;Creative Commons Attribution License (CC BY)
       </Text>
     </ScrollView>
   );

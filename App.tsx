@@ -8,7 +8,6 @@ import {
   Pressable,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Fonticons from "@expo/vector-icons/FontAwesome";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import i18n from "i18next";
@@ -33,6 +32,7 @@ i18n
           Designer: "Design and logo",
           Ideatore: "Creator",
           License: "License",
+          Info: "Info",
           LicenseCode: "Application source code license",
           Repository: "Application source code repository",
           Reference: "Glossary scientific reference",
@@ -42,6 +42,7 @@ i18n
         translation: {
           scrivi: "🔍 Scrivi qui per cercare...",
           Search: "Cerca",
+          Info: "Info",
           List: "Lista",
           "App developer": "Sviluppatore applicazione",
           Designer: "Design e loghi",
@@ -61,18 +62,93 @@ i18n
     },
   });
 
-const Stack = createNativeStackNavigator();
-
 const Tab = createBottomTabNavigator();
 
-export default function App() {
+function MyTabs() {
   const { t, i18n } = useTranslation();
-  const [state, setState] = useState(true);
+  return (
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        headerTitle: () => (
+          <Image
+            source={require("./img/EEGbanner.png")}
+            style={{ width: (50 * 1082) / 240, height: 50 }}
+          />
+        ),
+        // headerTitleContainerStyle: {height: 64},
+        headerRight: () => (
+          <View
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              flex: 1,
+              height: 64,
+            }}
+          >
+            <Pressable
+              key="key-title-btn-r1"
+              onPress={() => i18n.changeLanguage("it")}
+              style={{
+                backgroundColor:
+                  i18n.language === "it"
+                    ? "rgba(33,150,243,0.5)"
+                    : "rgba(0,0,0,0)",
+                paddingHorizontal: 5,
+                paddingTop: 4,
+                borderRadius: 5,
+                marginRight: 10,
+              }}
+            >
+              <Text style={{ fontSize: 20 }}>🇮🇹</Text>
+            </Pressable>
+            <Pressable
+              onPress={() => i18n.changeLanguage("en")}
+              key="key-title-btn-r2"
+              style={{
+                backgroundColor:
+                  i18n.language === "en"
+                    ? "rgba(33,150,243,0.5)"
+                    : "rgba(0,0,0,0)",
+                paddingHorizontal: 5,
+                paddingTop: 4,
+                borderRadius: 5,
+                marginRight: 10,
+              }}
+            >
+              <Text style={{ fontSize: 20 }}>🇬🇧</Text>
+            </Pressable>
+          </View>
+        ),
+        headerRightContainerStyle: { paddingRight: 20 },
+        // headerStyle: {
+        //   backgroundColor: '#f6f6f6',
+        //   height: "auto"
+        // },
+        tabBarIcon: ({ focused, color, size }) => {
+          let iconName = "search";
 
-  function changeLang(code: string) {
-    i18n.changeLanguage(code);
-  }
+          if (route.name === "Home") {
+            iconName = focused ? "search" : "search";
+          } else if (route.name === "Info") {
+            iconName = focused ? "info-circle" : "info-circle";
+          } else if (route.name === "List") {
+            iconName = focused ? "list" : "list";
+          }
 
+          // You can return any component that you like here!
+          return <Fonticons name={iconName} size={size} color={color} />;
+        },
+        tabBarActiveTintColor: "red",
+        tabBarInactiveTintColor: "black",
+      })}
+    >
+      <Tab.Screen name={t("Search")} component={HomeScreen} />
+      <Tab.Screen name={"Info"} component={InfoScreen} />
+    </Tab.Navigator>
+  );
+}
+
+export default function App() {
   // setTimeout(() => setState(true), 2500);
   const windowWidth = Dimensions.get("window").width;
   const windowHeight = Dimensions.get("window").height;
@@ -86,95 +162,10 @@ export default function App() {
     backgroundHeight = windowHeight;
   }
   // windowWidth:x=windowHeight*0.5625: windowHeight
-  return state ? (
+  return (
     <NavigationContainer>
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          headerTitle: (props) => (
-            <Image
-              source={require("./img/EEGbanner.png")}
-              style={{ width: (50 * 1082) / 240, height: 50 }}
-            />
-          ),
-          // headerTitleContainerStyle: {height: 64},
-          headerRight: (props) => (
-            <View
-              style={{
-                flexDirection: "row",
-                alignItems: "center",
-                flex: 1,
-                height: 64,
-              }}
-            >
-              <Pressable
-                key="key-title-btn-r1"
-                onPress={() => i18n.changeLanguage("it")}
-                style={{
-                  backgroundColor:
-                    i18n.language === "it"
-                      ? "rgba(33,150,243,0.5)"
-                      : "rgba(0,0,0,0)",
-                  paddingHorizontal: 5,
-                  paddingTop: 4,
-                  borderRadius: 5,
-                  marginRight: 10,
-                }}
-              >
-                <Text style={{ fontSize: 20 }}>🇮🇹</Text>
-              </Pressable>
-              <Pressable
-                onPress={() => i18n.changeLanguage("en")}
-                key="key-title-btn-r2"
-                style={{
-                  backgroundColor:
-                    i18n.language === "en"
-                      ? "rgba(33,150,243,0.5)"
-                      : "rgba(0,0,0,0)",
-                  paddingHorizontal: 5,
-                  paddingTop: 4,
-                  borderRadius: 5,
-                  marginRight: 10,
-                }}
-              >
-                <Text style={{ fontSize: 20 }}>🇬🇧</Text>
-              </Pressable>
-            </View>
-          ),
-          headerRightContainerStyle: { paddingRight: 20 },
-          // headerStyle: {
-          //   backgroundColor: '#f6f6f6',
-          //   height: "auto"
-          // },
-          tabBarIcon: ({ focused, color, size }) => {
-            let iconName = "search";
-
-            if (route.name === "Home") {
-              iconName = focused ? "search" : "search";
-            } else if (route.name === "Info") {
-              iconName = focused ? "info-circle" : "info-circle";
-            } else if (route.name === "List") {
-              iconName = focused ? "list" : "list";
-            }
-
-            // You can return any component that you like here!
-            return <Fonticons name={iconName} size={size} color={color} />;
-          },
-          tabBarActiveTintColor: "red",
-          tabBarInactiveTintColor: "black",
-        })}
-      >
-        <Tab.Screen name={t("Search")} component={HomeScreen} />
-        <Tab.Screen name={t("Info")} component={InfoScreen} />
-        {/* <Tab.Screen name={t("List")} component={ListScreen} /> */}
-      </Tab.Navigator>
+      <MyTabs />
     </NavigationContainer>
-  ) : (
-    <View style={styles.entry}>
-      <Image
-        source={require("./img/eeg_glossary_cover.png")}
-        style={{ width: backgroundWidth, height: backgroundHeight }}
-      />
-    </View>
   );
 }
 
