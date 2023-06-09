@@ -36,6 +36,8 @@ i18n
           LicenseCode: "Application source code license",
           Repository: "Application source code repository",
           Reference: "Glossary scientific reference",
+          Patrocinio: "Endorsed by",
+          ccby: "The mentioned scientific article is available under the terms of the Creative Commons Attribution License (CC BY)",
         },
       },
       it: {
@@ -51,6 +53,8 @@ i18n
           LicenseCode: "Application source code license",
           Repository: "Repository codice sorgente dell'applicazione",
           Reference: "Referenza scientifica del glossario",
+          Patrocinio: "Con il patrocinio di",
+          ccby: "L'articolo scientifico menzionato è disponibile secondo i termini della Licenza Creative Commons Attribution (CC BY).",
         },
       },
     },
@@ -94,9 +98,14 @@ function MyTabs() {
                     ? "rgba(33,150,243,0.5)"
                     : "rgba(0,0,0,0)",
                 paddingHorizontal: 5,
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center", // Added alignItems to center vertically
                 paddingTop: 4,
                 borderRadius: 5,
                 marginRight: 10,
+                height: 48,
+                width: 48,
               }}
             >
               <Text style={{ fontSize: 20 }}>🇮🇹</Text>
@@ -110,9 +119,14 @@ function MyTabs() {
                     ? "rgba(33,150,243,0.5)"
                     : "rgba(0,0,0,0)",
                 paddingHorizontal: 5,
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center", // Added alignItems to center vertically
                 paddingTop: 4,
                 borderRadius: 5,
                 marginRight: 10,
+                height: 48,
+                width: 48,
               }}
             >
               <Text style={{ fontSize: 20 }}>🇬🇧</Text>
@@ -138,7 +152,7 @@ function MyTabs() {
           // You can return any component that you like here!
           return <Fonticons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: "red",
+        tabBarActiveTintColor: "#E2260E",
         tabBarInactiveTintColor: "black",
       })}
     >

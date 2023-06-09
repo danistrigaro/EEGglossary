@@ -19,12 +19,12 @@ const stylesHome = StyleSheet.create({
     fontStyle: "italic",
     color: "#0F4937",
     textAlign: "center",
-    marginTop: 7.5,
+    marginTop: 12,
   },
   title2: {
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: "bold",
-    color: "grey",
+    color: "black",
     textAlign: "center",
     marginBottom: 15,
   },
@@ -93,7 +93,7 @@ const stylesHome = StyleSheet.create({
     padding: 10,
   },
   emailSubject: {
-    color: "rgba(0,0,0,0.5)",
+    color: "#757575",
   },
   searchInput: {
     padding: 10,
@@ -101,6 +101,7 @@ const stylesHome = StyleSheet.create({
     borderWidth: 1,
     fontSize: 20,
     fontWeight: "bold",
+    color: "#757575",
   },
 });
 

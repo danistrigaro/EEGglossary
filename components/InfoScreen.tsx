@@ -1,4 +1,10 @@
-import { Text, ScrollView, Linking } from "react-native";
+import {
+  Text,
+  ScrollView,
+  Linking,
+  TouchableHighlight,
+  Image,
+} from "react-native";
 import stylesHome from "../styles/stylesHome";
 import { useTranslation } from "react-i18next";
 
@@ -6,7 +12,9 @@ const InfoScreen = () => {
   const { t, i18n } = useTranslation();
   return (
     <ScrollView style={{ backgroundColor: "white", padding: 20 }}>
-      <Text style={stylesHome.title}>{t("Scientific Committee")}</Text>
+      <Text style={{ ...stylesHome.title, marginTop: 0 }}>
+        {t("Scientific Committee")}
+      </Text>
       <Text style={stylesHome.textStyle}>
         “Epilepsy and Neurophysiological Techniques” of the Italian League
         Against Epilepsy (LICE)
@@ -55,9 +63,30 @@ const InfoScreen = () => {
           Linking.openURL("https://creativecommons.org/licenses/by/4.0/")
         }
       >
-        The mentioned scientific article is available under the terms of
-        the&nbsp;Creative Commons Attribution License (CC BY)
+        {t("ccby")}
       </Text>
+      <Text style={stylesHome.title}>{t("Patrocinio")}</Text>
+      <TouchableHighlight
+        style={{
+          flexDirection: "row",
+          justifyContent: "center",
+          flex: 1,
+          paddingHorizontal: 5,
+          paddingTop: 4,
+          borderRadius: 5,
+          marginRight: 10,
+        }}
+        onPress={() => Linking.openURL("https://lice.it/")}
+      >
+        <Image
+          style={{
+            width: 200,
+            height: 84,
+          }}
+          accessibilityLabel="LICE logo"
+          source={require("../img/lice_logo.png")}
+        />
+      </TouchableHighlight>
     </ScrollView>
   );
 };

@@ -134,6 +134,7 @@ const HomeScreen = () => {
                 style={{
                   flexDirection: "row",
                   justifyContent: "center",
+                  alignItems: "center", // Added alignItems to center vertically
                   flex: 1,
                   backgroundColor:
                     state.modalLang === "it"
@@ -143,6 +144,8 @@ const HomeScreen = () => {
                   paddingTop: 4,
                   borderRadius: 5,
                   marginRight: 10,
+                  height: 48,
+                  width: 48,
                 }}
               >
                 <Text
@@ -161,6 +164,7 @@ const HomeScreen = () => {
                   flexDirection: "row",
                   justifyContent: "center",
                   flex: 1,
+                  alignItems: "center", // Added alignItems to center vertically
                   backgroundColor:
                     state.modalLang === "en"
                       ? "rgba(33,150,243,0.5)"
@@ -169,6 +173,8 @@ const HomeScreen = () => {
                   paddingTop: 4,
                   borderRadius: 5,
                   marginRight: 10,
+                  height: 48,
+                  width: 48,
                 }}
               >
                 <Text
@@ -185,6 +191,13 @@ const HomeScreen = () => {
                 onPress={() =>
                   setState({ ...state, modal: false, modalLang: i18n.language })
                 }
+                style={{
+                  height: 48,
+                  flexDirection: "row",
+                  justifyContent: "center",
+                  alignItems: "center", // Added alignItems to center vertically
+                  width: 48,
+                }}
               >
                 <Text style={stylesHome.modalHeaderCloseText}>
                   <Fonticons
