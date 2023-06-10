@@ -26,7 +26,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.danistrigaro.EEGglossary"
+      "package": "com.danistrigaro.EEGglossary",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
